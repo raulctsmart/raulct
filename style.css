@@ -142,6 +142,49 @@ h4{
 .Contact-text{
     color: white;
     text-align: center;
-    
+}
+
+@media (max-width: 800px) {
+  .hero {
+    height: 50vh;
+}
+    nav{
+    display: table-row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: auto;
+    padding-right: 8%;
+}
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        padding: 10px 25px;
+}
+    .content{
+        position: absolute;
+        top: 35%;
+        left: auto;
+        
+}
+  
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+}
+
+    .main img{
+    display: none;
+  }
+  .btn{
+    display: none;
+}
+.Skills{
+    height: 50vh;
+}
 
 }
