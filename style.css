@@ -94,6 +94,9 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
+.main img{
+    width: 25%;
+  }
 .about-text h2{
     color: white;
     font-size: 75px;
@@ -183,16 +186,17 @@ h4{
   .btn{
     display: none;
 }
-  .Skills{
+    .Skills{
     height: 50vh;
 }
     nav ul li{
-     list-style-type: none;
-     display: none;
-     padding: 10px 25px;
+    list-style-type: none;
+    display: none;
+    padding: 10px 25px;
 }
 
     .content h4{
-      display: none;
-}    
+        display: none;
+}
+
 }
