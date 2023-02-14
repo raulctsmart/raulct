@@ -183,8 +183,16 @@ h4{
   .btn{
     display: none;
 }
-.Skills{
+  .Skills{
     height: 50vh;
 }
+    nav ul li{
+     list-style-type: none;
+     display: none;
+     padding: 10px 25px;
+}
 
+    .content h4{
+      display: none;
+}    
 }
