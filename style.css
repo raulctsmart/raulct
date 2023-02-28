@@ -1,4 +1,329 @@
 .hero{
+    width: 100%;
+    background-image: url("Images/Hero pic.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 1%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+span{
+    color: rgb(221, 12, 12);
+}
+
+nav ul li{
+    display: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    display: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: brown;
+    transition: .2s;
+}
+
+.btn{
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.about{
+    width: 100%;
+    background-color: #191919; 
+    padding-top: 5px; 
+    padding-bottom: 2px;
+}
+
+.about img{
+    width: 25%;
+    float: right;
+    padding: 15px;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 30px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 0.1px;
+    line-height: 28px;
+
+}
+
+.Skills{
+    padding-top: 2px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/841/398/small/office-desk-table-top-view-with-office-supplies-free-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2px;
+}
+
+.Contact{
+    padding-top: 5px;
+    background-color: #191919;
+    padding-bottom: 2px;
+}
+.Contact-text{
+    color: white;
+    text-align: center;
+}
+
+.bton{display: none;}
+
+@media (min-width: 800px) {
+    .hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("Images/Hero pic.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
+span{
+    color: rgb(221, 12, 12);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: brown;
+    transition: .2s;
+}
+
+.btn{
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s
+}
+
+.btn:hover{
+    transform: scale(1.2);
+
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+   font-size: 20px; 
+   letter-spacing: 1px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;  
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;   
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main img{
+    width: 25%;
+  }
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.Skills{
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/003/841/398/small/office-desk-table-top-view-with-office-supplies-free-photo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Skills-text h2{
+  font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;  
+}
+
+.Skills-text ul li{
+    font-size: 25px;
+}
+.Contact{
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #191919
+}
+.Contact-text{
+    color: white;
+    text-align: center;
+}
+
+.bton{
+    display: flex;
+    background-color: royalblue;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s
+}
+
+.bton:hover{
+    transform: scale(1.2);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.hero{
     height: 100vh;
     width: 100%;
     background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
@@ -199,7 +524,7 @@ h4{
         display: none;
 }
 
-}
+}*/
 
 
 
